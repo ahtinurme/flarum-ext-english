@@ -15,8 +15,8 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Unfollow
-      unignore_button: Unignore
+      unfollow_button: Ära järgi
+      unignore_button: Ära peida
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,12 +24,12 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} posted"
+      new_post_text: "{username} postitas"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatically follow discussions that I reply to
-      notify_new_post_label: Someone posts in a discussion I'm following
+      follow_after_reply_label: Automaatselt järgi vestluseid, kus ma olen vastanud
+      notify_new_post_label: Keegi postitas vestluses, mida ma jälgin
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
@@ -37,11 +37,11 @@ flarum-subscriptions:
       following_button: => flarum-subscriptions.ref.following
       following_text: Be notified of all replies.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Never be notified. Hide from the discussion list.
-      not_following_button: Not Following
-      not_following_text: "Be notified only when @mentioned."
-      notify_alert_tooltip: Get a forum notification when there are new posts
-      notify_email_tooltip: Get an email when there are new posts
+      ignoring_text: Ära kunagi teavita. Peida vestlusest.
+      not_following_button: Ei järgi
+      not_following_text: "Sa teavitus ainult kui @mainitud."
+      notify_alert_tooltip: Saa foorumi teavitus kui on uusi postitusi
+      notify_email_tooltip: Saa email kui on uusi postitusi
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +49,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Follow
-    following: Following
-    ignoring: Ignoring
+    follow: Järgi
+    following: Järgimas
+    ignoring: Peitmas

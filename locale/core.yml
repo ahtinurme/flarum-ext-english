@@ -24,7 +24,7 @@ core:
       custom_styles_heading: Kohandatud stiilid
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
       dark_mode_label: Tume režiim
-      edit_css_button: Muuda kohandatud CSS'i
+      edit_css_button: "Muuda kohandatud CSS'i"
       edit_header_button: Muuda kohandatud päist
       enter_hex_message: Palun sisesta hex värvikood. 
       favicon_heading: Favicon
@@ -42,15 +42,15 @@ core:
       forum_title_heading: Foorumi pealkiri
       home_page_heading: Kodu leht
       home_page_text: Valige leht, mida kasutajad kõige esimesena näevad kui su foorumit külastavad.
-      saved_message: Your changes were saved.
-      show_language_selector_label: Show language selector
+      saved_message: Sinu tehtud muudatused salvestati.
+      show_language_selector_label: Näita keelevalikut
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
+      welcome_banner_heading: Tervitusbänner
+      welcome_banner_text: Muutke teksti, mida näidatakse Kõikide Vestluste lehe bänneril. Kasuta seda, et tervitada külalisi foorumisse tulles.
 
     # These translations are used in the Dashboard page.
     dashboard:
-      help_link: Get Help
+      help_link: Saa abi
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
