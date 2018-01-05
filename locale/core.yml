@@ -41,7 +41,7 @@ core:
       forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
       forum_title_heading: Forum Title
       home_page_heading: Home Page
-      home_page_text: "Choose the page which users will first see when they visit your forum. If entering a custom value, use the path relative to the forum root."
+      home_page_text: Choose the page which users will first see when they visit your forum.
       saved_message: Your changes were saved.
       show_language_selector_label: Show language selector
       submit_button: => core.ref.save_changes
@@ -50,14 +50,7 @@ core:
 
     # These translations are used in the Dashboard page.
     dashboard:
-      beta_warning_text: "This <strong>beta software</strong> is provided primarily so that you can help us test it and make it better; it should not be used in production."
-      contributing_text: "Want to look for bugs and contribute? Read the <a>Contributing docs</a>."
-      extension_text: "Interested in developing extensions? Read the <a>Extension docs</a>."
-      features_text: "Got an idea to improve a feature? Tell us about it under the <a>Features tag</a>."
-      support_text: "Found a bug? Please report it in our forum, under the <a>Support tag</a>."
-      troubleshooting_text: "Having problems? Follow the instructions in the <a>Troubleshooting docs</a>."
-      version_text: "Thanks for trying out Flarum! You are running version {version}."
-      welcome_text: "Welcome to Flarum Beta!"
+      help_link: Get Help
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
@@ -195,6 +188,7 @@ core:
       exit_full_screen_tooltip: Exit Full Screen
       full_screen_tooltip: Full Screen
       minimize_tooltip: Minimize
+      preview_tooltip: Preview
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
@@ -377,13 +371,12 @@ core:
       avatar_remove_button: Remove
       avatar_upload_button: Upload
       avatar_upload_tooltip: Upload a new avatar
-      bio_placeholder: Write something about yourself
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
       joined_date_text: "Joined {ago}"
       online_text: Online
       posts_load_more_button: => core.ref.load_more
-      posts_link: Posts
+      posts_link: => core.ref.posts
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
@@ -434,7 +427,7 @@ core:
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
       javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site.
+      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
       loading_text: Loading...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
@@ -442,16 +435,30 @@ core:
       next_page_button: => core.ref.next_page
       previous_page_button: Previous Page
 
+    # Translations in this namespace are displayed when Flarum encounters an error.
+    error:
+      403_message: You do not have permission to access this page.
+      404_message: The page you requested could not be found.
+      404_return_link: "Return to {forum}"
+      500_message: An error occurred while trying to load this page.
+      503_message: "{forum} is undergoing maintenance. Thanks for your patience!"
+
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
       all_discussions_heading: => core.ref.all_discussions
       next_page_button: => core.ref.next_page
 
+    # Translations in this namespace are displayed by the Log Out confirmation interface.
+    log_out:
+      log_out_button: => core.ref.log_out
+      log_out_confirmation: "Are you sure you want to log out of {forum}?"
+      title: => core.ref.log_out
+
     # Translations in this namespace are displayed by the Reset Password interface.
-    reset:
-      confirm_password_label: => core.ref.confirm_password
-      password_label: => core.ref.password
-      submit_button: Reset Password
+    reset_password:
+      confirm_password_label: Confirm New Password
+      new_password_label: New Password
+      submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
@@ -513,7 +520,7 @@ core:
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
     delete: Delete
     delete_forever: Delete Forever
-    discussions: Discussions
+    discussions: Discussions                     # Referenced by flarum-statistics.yml
     edit: Edit
     email: Email
     load_more: Load More
@@ -524,6 +531,7 @@ core:
     notifications: Notifications
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
+    posts: Posts                                 # Referenced by flarum-statistics.yml
     rename: Rename
     reply: Reply                                 # Referenced by flarum-mentions.yml
     reset_your_password: Reset Your Password
