@@ -11,37 +11,37 @@ core:
     add_extension:
       developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
       install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
-      temporary_text: "One day in the not-too-distant future, this dialog will allow you to add an extension to your forum with ease. We're building an ecosystem as we speak!"
-      title: Add Extension
+      temporary_text: "Ühel päeval mitte liiga kauges tulevikus aitab see dialoog teil hõlpsasti lisada laiendusi foorumisse. Me ehitame ökosüsteemi samal ajal, kui me räägime!"
+      title: Lisa laiendus
 
     # These translations are used in the Appearance page.
     appearance:
-      colored_header_label: Colored Header
-      colors_heading: Colors
-      colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
-      custom_header_heading: Custom Header
-      custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      custom_styles_heading: Custom Styles
+      colored_header_label: Värviline päis
+      colors_heading: Värvid
+      colors_text: "Valige kaks värvi, et kujundada oma foorum. Esimest kasutatakse esiletõstetava värvina, teist kasutatakse taustaelementide kujundamiseks."
+      custom_header_heading: Kohandatud päis
+      custom_header_text: "Lisage HTML, mis kuvatakse lehe ülaosas Flarumi enda pealkirja kohal."
+      custom_styles_heading: Kohandatud stiilid
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
-      dark_mode_label: Dark Mode
-      edit_css_button: Edit Custom CSS
-      edit_header_button: Edit Custom Header
-      enter_hex_message: Please enter a hexadecimal color code.
+      dark_mode_label: Tume režiim
+      edit_css_button: Muuda kohandatud CSS'i
+      edit_header_button: Muuda kohandatud päist
+      enter_hex_message: Palun sisesta hex värvikood. 
       favicon_heading: Favicon
-      favicon_text: Upload an image to be displayed as the forum's shortcut icon.
+      favicon_text: Laadige pilt, mida kuvatakse foorumi otsetee ikoonina.
       logo_heading: Logo
-      logo_text: Upload an image to be displayed in place of the forum title.
+      logo_text: Laadige pilt, mis kuvatakse foorumi pealkirja asemel.
       submit_button: => core.ref.save_changes
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
-      default_language_heading: Default Language
-      forum_description_heading: Forum Description
-      forum_description_text: Enter a short sentence or two that describes your community. This will appear in the meta tag and show up in search engines.
-      forum_title_heading: Forum Title
-      home_page_heading: Home Page
-      home_page_text: Choose the page which users will first see when they visit your forum.
+      default_language_heading: Vaikimisi keel
+      forum_description_heading: Foorumi kirjeldus
+      forum_description_text: Sisestage rida või paar, mis kirjeldavad teie kogukonda. See ilmub meta märkmes ja otsimootorites.
+      forum_title_heading: Foorumi pealkiri
+      home_page_heading: Kodu leht
+      home_page_text: Valige leht, mida kasutajad kõige esimesena näevad kui su foorumit külastavad.
       saved_message: Your changes were saved.
       show_language_selector_label: Show language selector
       submit_button: => core.ref.save_changes
