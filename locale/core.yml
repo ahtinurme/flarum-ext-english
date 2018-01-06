@@ -207,10 +207,10 @@ core:
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
       body_placeholder: => core.ref.write_a_reply
-      discard_confirmation: "You have not posted your reply. Do you wish to discard it?"
-      posted_message: Your reply was posted.
-      submit_button: Post Reply
-      view_button: View
+      discard_confirmation: "Sa ei ole oma vastust postitanud. Kas sa soovid sellest loobuda?"
+      posted_message: Su vastus postitati.
+      submit_button: Postita vastus
+      view_button: Vaata
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -250,10 +250,10 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
+      email_sent_message: Me saatsime sulle e-kirja lingiga, kudas parooli muuta. Kontrolli spämmikausta, kui see pole paari minuti jooksul kohale jõudnud.
+      not_found_message: Sellise e-posti aadressiga kasutajat ei eksisteeri.
       submit_button: Taasta parool
-      text: Enter your email address and we will send you a link to reset your password.
+      text: Sisesta oma e-posti aadress ja me saadame sulle lingi, kus saad parooli muuta.
       title: Unustasin parooli
 
     # These translations are used in the header and session dropdown menu.
@@ -270,10 +270,10 @@ core:
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       all_discussions_link: => core.ref.all_discussions
-      cannot_start_discussion_button: Can't Start Discussion
-      mark_all_as_read_confirmation: "Are you sure you want to mark all discussions as read?"
+      cannot_start_discussion_button: Ei saa vestlust alustada
+      mark_all_as_read_confirmation: "Oled sa kindel, et soovid kõik vestlused loetuks märkida?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
-      refresh_tooltip: Refresh
+      refresh_tooltip: Uuenda
       start_discussion_button: => core.ref.start_a_discussion
 
     # These translations are used by the sorting control above the discussion list.
@@ -297,8 +297,8 @@ core:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_renamed_text: "{username} changed the title"
-      empty_text: No Notifications
+      discussion_renamed_text: "{username} muutis pealkirja"
+      empty_text: Teavitused puuduvad
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
@@ -318,7 +318,7 @@ core:
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
-      now_link: Now
+      now_link: Praegu
       original_post_link: Originaalne postitus
       unread_text: "{count} lugemata"
       viewing_text: "{index} {count}-st postitusest|{index} {count}-st postitusest"
@@ -350,8 +350,8 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Someone renames a discussion I started
-      privacy_disclose_online_label: Allow others to see when I am online
+      notify_discussion_renamed_label: Keegi nimetas ümber postituse, mille ma alustasin
+      privacy_disclose_online_label: Luba teistel näha, millal ma foorumis olen
       privacy_heading: Privaatsus
       title: => core.ref.settings
 
@@ -406,9 +406,9 @@ core:
     # These translations are displayed as error messages.
     error:
       generic_message: "Oih! Miski läks valesti. Palun uuenda leht ja proovi uuesti."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      not_found_message: Resurssi ei leitud.
+      permission_denied_message: Sul peavad olema õigused, et seda teha.
+      rate_limit_exceeded_message: Su liigutused on liiga kiired. Proovi paari sekundi pärast.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -426,9 +426,9 @@ core:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
-      loading_text: Loading...
+      javascript_disabled_message: See leht on kõige parem vaadatud moodsa brauseriga, kus JavaScript on lubatud.
+      load_error_message: Miski läks valesti kui sa üritasid lehte laadida. Proovi lehte taas laadida.
+      loading_text: Laeb...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -437,11 +437,11 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      403_message: You do not have permission to access this page.
-      404_message: The page you requested could not be found.
-      404_return_link: "Return to {forum}"
-      500_message: An error occurred while trying to load this page.
-      503_message: "{forum} is undergoing maintenance. Thanks for your patience!"
+      403_message: Sul ei ole õigusi seda lehte vaadata.
+      404_message: Seda lehte ei eksisteeri.
+      404_return_link: "Naase {forum}"
+      500_message: Lehte laadides ilmnes viga.
+      503_message: "{forum} on muutmisel. Kannatust!"
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -451,7 +451,7 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Are you sure you want to log out of {forum}?"
+      log_out_confirmation: "Oled sa kindel, et tahad {forum} väljuda?"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
@@ -470,42 +470,42 @@ core:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: Aktiveeri oma uus konto
       body: |
-        Hey {username}!
+        Tere {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Keegi (loodetavasti sa ise) on registreerunud {forum} selle e-posti aadressiga.
 
-        If this was you, simply click the following link and your account will be activated:
+        Kui see olid sina, siis lihtsalt vajuta allpool olevale lingile ja su konto aktiveeritakse:
         {url}
 
-        If you did not sign up, please ignore this email.
+        Kui see ei olnud sina, siis lihtsalt ignoreeri seda kirja.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: Kinnita oma uus e-posti aadress
       body: |
-        Hey {username}!
+        Tere {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Keegi (loodetavasti sa ise) on muutnud {forum} e-posti aadressi selleks, mis praegu.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Kui see olid sina, siis lihtsalt vajuta allpool olevale lingile ja su e-posti aadress kinnitatakse:
         {url}
 
-        If this was not you, please ignore this email.
+        Kui see ei olnud sina, siis lihtsalt ignoreeri seda kirja.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
       subject: => core.ref.reset_your_password
       body: |
-        Hey {username}!
+        Tere {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Keegi (loodetavasti sa ise) on saatnud unustatud parooli meeldetuletuse  {forum}.
 
-        If this was you, click the following link to reset your password:
+        Kui see olid sina, vajuta käesolevale lingile, et parooli muuta:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Kui sa ei soovi parooli muuta, siis lihtsalt ignoreeri seda e-kirja ja midagi ei juhtu.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
