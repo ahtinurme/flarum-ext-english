@@ -1,8 +1,8 @@
-# English Language Pack for Flarum
+# Estonian Language Pack for Flarum
 
 ## Installation
 
-This language pack is bundled with [Flarum](http://flarum.org/).
+This language pack is not bundled with [Flarum](http://flarum.org/).
 
 ## Translating Flarum
 
