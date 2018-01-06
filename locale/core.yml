@@ -9,8 +9,8 @@ core:
 
     # These translations are used in the placeholder Add Extension modal dialog.
     add_extension:
-      developer_text: "If you're a developer, you can <a>read the docs</a> and have a go at building your own extensions."
-      install_text: "In the meantime, you can look for extensions at the <a>Flarum Community site</a> and install them manually using Composer."
+      developer_text: "Kui sa oled arendaja, võid <a>lugeda dokumentatsiooni</a> ja proovida ehitada oma lisa."
+      install_text: "Vahepeal võid sa otsida lisasid <a>Flarum'i kogukonda lehelt</a> ja paigaldada neid käsitsi Composer'i abil."
       temporary_text: "Ühel päeval mitte liiga kauges tulevikus aitab see dialoog teil hõlpsasti lisada laiendusi foorumisse. Me ehitame ökosüsteemi samal ajal, kui me räägime!"
       title: Lisa laiendus
 
@@ -22,7 +22,7 @@ core:
       custom_header_heading: Kohandatud päis
       custom_header_text: "Lisage HTML, mis kuvatakse lehe ülaosas Flarumi enda pealkirja kohal."
       custom_styles_heading: Kohandatud stiilid
-      custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
+      custom_styles_text: Muuda foorumi välimust lisades oma LESS/CSS kood, mis lisatakse Flarum'i vaikestiilidele.
       dark_mode_label: Tume režiim
       edit_css_button: "Muuda kohandatud CSS'i"
       edit_header_button: Muuda kohandatud päist
@@ -54,50 +54,50 @@ core:
 
     # These translations are used in the Edit Custom CSS modal dialog.
     edit_css:
-      customize_text: "Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's <a>default styles</a>."
+      customize_text: "Muuda foorumi välimust lisades oma LESS/CSS kood, mis lisatakse Flarum'i <a>vaikestiilidele</a>."
       submit_button: => core.ref.save_changes
-      title: Edit Custom CSS
+      title: "Muuda CSS'i"
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Color
-      delete_button: Delete Group
-      delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
-      icon_label: Icon
-      icon_text: "Enter the name of any <a>FontAwesome</a> icon class, <em>without</em> the <code>fa-</code> prefix."
-      name_label: Name
-      plural_placeholder: Plural (e.g. Mods)
-      singular_placeholder: Singular (e.g. Mod)
+      color_label: Värv
+      delete_button: Kustuta grupp
+      delete_confirmation: "Oled sa kindel, et tahad antud grupi kustutada? Grupi liikmeid EI kustutata."
+      icon_label: Ikoon
+      icon_text: "Sisesta <a>FontAwesome</a> ikoon klassi, <em>ilma</em> <code>fa-</code> prefiksita."
+      name_label: Nimi
+      plural_placeholder: Mitmuses (nt. Moderaatorid)
+      singular_placeholder: Ainsuses (nt. Moderaator)
       submit_button: => core.ref.save_changes
-      title: Create Group
+      title: Loo grupp
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      customize_text: "Lisa HTML, mida näitatakse Flarumi päise kohal."
       submit_button: => core.ref.save_changes
-      title: Edit Custom Header
+      title: Muuda päist
 
     # These translations are used in the email page of the admin interface.
     email:
-      account_heading: SMTP Account
-      addresses_heading: Addresses
+      account_heading: SMTP konto
+      addresses_heading: Aadressid
       driver_label: Driver
-      encryption_label: Encryption
-      from_label: Sender
+      encryption_label: Krüpteering
+      from_label: Saatja
       heading: => core.ref.email
       host_label: Host
       password_label: => core.ref.password
       port_label: Port
-      server_heading: SMTP Server
+      server_heading: SMTP server
       submit_button: => core.ref.save_changes
-      text: Configure the SMTP settings and addresses your forum will use to send email.
+      text: Muuda SMTP seadeid ja aadresse, mida su foorum kasutab meilide saatmiseks.
       username_label: => core.ref.username
 
     # These translations are used in the Extensions page.
     extensions:
-      add_button: Add Extension
+      add_button: Lisa laiendus
       settings_button: => core.ref.settings
-      uninstall_button: Uninstall
+      uninstall_button: Eemalda
 
     # These translations are used in the session dropdown menu.
     header:
@@ -105,55 +105,55 @@ core:
 
     # These translations are used in the modal dialog displayed when loading extensions.
     loading:
-      title: Please Wait...
+      title: Palun oota...
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Appearance
-      appearance_text: "Customize your forum's colors, logos, and other variables."
-      basics_button: Basics
-      basics_text: "Set your forum title, language, and other basic settings."
-      dashboard_button: Dashboard
-      dashboard_text: Your forum at a glance.
+      appearance_button: Välimus
+      appearance_text: "Muuda foorumi värve, logosid ja muid muutujaid."
+      basics_button: Põhiline
+      basics_text: "Seadista foorumi pealkiri, keel ja muud baasseaded."
+      dashboard_button: Töölaud
+      dashboard_text: Sinu foorumi ülevaade.
       email_button: => core.ref.email
-      email_text: "Configure your forum's email settings."
-      extensions_button: Extensions
-      extensions_text: Add extra functionality to your forum and make it your own.
-      permissions_button: Permissions
-      permissions_text: Configure who can see and do what.
+      email_text: "Muuda foorumi e-posti seadeid."
+      extensions_button: Lisad
+      extensions_text: Lisa foorumise täiendavaid võimalusi.
+      permissions_button: Õigused
+      permissions_text: Seadista, kes saab mida näha ja teha.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_renaming_label: Allow renaming
-      allow_post_editing_label: Allow post editing
-      create_heading: Create
-      delete_discussions_forever_label: Delete discussions forever
-      delete_discussions_label: Delete discussions
-      delete_posts_forever_label: Delete posts forever
-      edit_and_delete_posts_label: Edit and delete posts
-      global_heading: Global
-      moderate_heading: Moderate
-      new_group_button: New Group
-      participate_heading: Participate
-      read_heading: Read
-      rename_discussions_label: Rename discussions
-      reply_to_discussions_label: Reply to discussions
-      sign_up_label: Sign up
-      start_discussions_label: Start discussions
-      view_discussions_label: View discussions
-      view_post_ips_label: View post IP addresses
-      view_user_list_label: View user list
+      allow_renaming_label: Luba ümbernimetamist
+      allow_post_editing_label: Luba postituse muutmist
+      create_heading: Loo
+      delete_discussions_forever_label: Kustuta vestlused igaveseks
+      delete_discussions_label: Eemalda vestlused
+      delete_posts_forever_label: Eemalda postitused igaveseks
+      edit_and_delete_posts_label: Muuda ja kustuta postitusis
+      global_heading: Globaalne
+      moderate_heading: Modereeri
+      new_group_button: Uus grupp
+      participate_heading: Osale
+      read_heading: Loe
+      rename_discussions_label: Nimeta vestlus ümber
+      reply_to_discussions_label: Vasta vestlustele
+      sign_up_label: Registreeru
+      start_discussions_label: Alusta vestlust
+      view_discussions_label: Vaata vestlusi
+      view_post_ips_label: Vaata postituste IP aadresse
+      view_user_list_label: Vaata kasutajate nimekirja
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
-      allow_indefinitely_button: Indefinitely
-      allow_some_minutes_button: "For {count} minute|For {count} minutes"
-      allow_ten_minutes_button: For 10 minutes
-      allow_until_reply_button: Until next reply
-      everyone_button: Everyone
+      allow_indefinitely_button: Igavesti
+      allow_some_minutes_button: "{count} minutiks|{count} minutiks"
+      allow_ten_minutes_button: 10ks minutiks
+      allow_until_reply_button: Kuni järgmise vastuseni
+      everyone_button: Igaüks
       members_button: => core.group.members
-      signup_closed_button: Closed
-      signup_open_button: Open
+      signup_closed_button: Suletud
+      signup_open_button: Avatud
 
     # These translations are used in the Settings modal dialog.
     settings:
@@ -161,8 +161,8 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: Remove
-      upload_button: Choose an Image...
+      remove_button: Eemalda
+      upload_button: Vali pilt...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -172,36 +172,36 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: Sisestatud parooli ei ole õige.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
     # These translations are used in the Change Password modal dialog.
     change_password:
-      send_button: Send Password Reset Email
-      text: Click the button below and check your email for a link to change your password.
+      send_button: Saada parooli muutmise e-kiri
+      text: Vajuta allpool olevale nupule ja vaata oma e-posti, et muuta parooli.
       title: => core.ref.change_password
 
     # These translations are used by the composer controls.
     composer:
-      close_tooltip: Close
-      exit_full_screen_tooltip: Exit Full Screen
-      full_screen_tooltip: Full Screen
-      minimize_tooltip: Minimize
-      preview_tooltip: Preview
+      close_tooltip: Sulge
+      exit_full_screen_tooltip: Välja täisekraanilt
+      full_screen_tooltip: Täisekraan
+      minimize_tooltip: Vähenda
+      preview_tooltip: Eelvaade
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Write a Post...
-      discard_confirmation: "You have not posted your discussion. Do you wish to discard it?"
-      submit_button: Post Discussion
+      body_placeholder: Kirjuta postitus...
+      discard_confirmation: "Sa ei ole ole vestlust postitanud. Kas sa tahad sellest loobuda?"
+      submit_button: Postita vestlus
       title: => core.ref.start_a_discussion
-      title_placeholder: Discussion Title
+      title_placeholder: Vestluse pealkiri
 
     # These translations are used by the composer when editing a post.
     composer_edit:
-      discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      post_link: "Post #{number} in {discussion}"
+      discard_confirmation: "Sa ei ole oma seadeid salvestanud. Kas sa soovid nendest loobuda?"
+      post_link: "Postitus #{number} vestluses {discussion}"
       submit_button: => core.ref.save_changes
 
     # These translations are used by the composer when replying to a discussion.
@@ -214,35 +214,35 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: Ei saa vastata
+      cannot_reply_text: Sul ei ole õigust vastata sellele vestlusele.
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "Oled sa kindel, et tahad antud vestluse kustutada?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
+      log_in_to_reply_button: Logi sisse, et vastata
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks like there are no discussions here.
+      empty_text: Tundub, et siin ei ole vestlusi
       load_more_button: => core.ref.load_more
-      mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      mark_as_read_tooltip: Märgi loetuks
+      replied_text: "{username} vastas {ago}"
+      started_text: "{username} alustas {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: Aktiveeri kasutaja
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: Grupid
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: Sea uus parool
       submit_button: => core.ref.save_changes
-      title: Edit User
+      title: Muuda kasutajat
       username_heading: => core.ref.username
       username_label: => core.ref.username
 
@@ -252,18 +252,18 @@ core:
       email_placeholder: => core.ref.email
       email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
       not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
+      submit_button: Taasta parool
       text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      title: Unustasin parooli
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: Administration
-      back_to_index_tooltip: Back to discussion list
+      admin_button: Administreerimine
+      back_to_index_tooltip: Tagasi vestluste nimekirja
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
-      profile_button: Profile
-      search_placeholder: Search Forum
+      profile_button: Profiil
+      search_placeholder: Otsi
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -278,22 +278,22 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
-      relevance_button: Relevance
+      latest_button: Viimased
+      newest_button: Uusimad
+      oldest_button: Vanimad
+      relevance_button: Olulisus
       top_button: Top
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "Unustasid parooli?"
+      invalid_login_message: Su sisselogimise seaded olid valed.
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: Mäleta mind
+      sign_up_text: "Ei ole kontot? <a>Registreeru</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: Kasutajanimi või e-post
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -305,9 +305,9 @@ core:
 
     # These translations are used by tooltips displayed for individual posts.
     post:
-      edited_text: Edited
-      edited_tooltip: "{username} edited {ago}"
-      number_tooltip: "Post #{number}"
+      edited_text: Muudetud
+      edited_tooltip: "{username} muutis {ago}"
+      number_tooltip: "Postitus #{number}"
 
     # These translations are used by the post control buttons.
     post_controls:
@@ -319,32 +319,32 @@ core:
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
       now_link: Now
-      original_post_link: Original Post
-      unread_text: "{count} unread"
-      viewing_text: "{index} of {count} post|{index} of {count} posts"
+      original_post_link: Originaalne postitus
+      unread_text: "{count} lugemata"
+      viewing_text: "{index} {count}-st postitusest|{index} {count}-st postitusest"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
-      discussion_renamed_text: "{username} changed the title to {new}."
+      discussion_renamed_old_tooltip: 'Vana pealkiri oli: "{old}"'
+      discussion_renamed_text: "{username} muutis pealkirja {new}-ks."
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} later"
+      time_lapsed_text: "{period} hiljem"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Rename Discussion
+      title: Rename Vestlus
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
     search:
-      all_discussions_button: 'Search all discussions for "{query}"'
+      all_discussions_button: 'Otsi kõikidest vestlustest "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: Kasutajad
 
     # These translations are used in the Settings page.
     settings:
-      account_heading: Account
+      account_heading: Konto
       change_email_button: => core.ref.change_email
       change_password_button: => core.ref.change_password
       notifications_heading: => core.ref.notifications
@@ -352,60 +352,60 @@ core:
       notify_by_web_heading: Web
       notify_discussion_renamed_label: Someone renames a discussion I started
       privacy_disclose_online_label: Allow others to see when I am online
-      privacy_heading: Privacy
+      privacy_heading: Privaatsus
       title: => core.ref.settings
 
     # These translations are used in the Sign Up modal dialog.
     sign_up:
       email_placeholder: => core.ref.email
       dismiss_button: => core.ref.okay
-      log_in_text: "Already have an account? <a>Log In</a>"
+      log_in_text: "Konto olemas? <a>Sisene</a>"
       password_placeholder: => core.ref.password
       submit_button: => core.ref.sign_up
       title: => core.ref.sign_up
       username_placeholder: => core.ref.username
-      welcome_text: "Welcome, {username}!"
+      welcome_text: "Tere tulemast, {username}!"
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_remove_button: Eemalda
+      avatar_upload_button: Lae üles
+      avatar_upload_tooltip: Lae üles uus pilt
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
+      in_discussion_text: "Vestluses {discussion}"
+      joined_date_text: "Liitus {ago}"
+      online_text: Kohal
       posts_load_more_button: => core.ref.load_more
       posts_link: => core.ref.posts
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).
     user_controls:
-      button: Controls
+      button: Juhtnupud
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "Oled sa kindel, et tahad antud kasutaja kustutada? Kõik kasutaja postitused kustutatakse."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: Saada kinnitusmeil uuesti
+      sent_message: Saadetud
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: Peidetud
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[kustutatud]"
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
+      generic_message: "Oih! Miski läks valesti. Palun uuenda leht ja proovi uuesti."
       not_found_message: The requested resource was not found.
       permission_denied_message: You do not have permission to do that.
       rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
@@ -418,8 +418,8 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second} ja {third}"
+      two_text: "{first} ja {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
@@ -433,7 +433,7 @@ core:
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
-      previous_page_button: Previous Page
+      previous_page_button: Eelmine leht
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
@@ -456,14 +456,14 @@ core:
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: Kinnita uus parool
+      new_password_label: Uus parool
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "Kasutajanimi võib sisaldada ainult tähti, numbreid ja sidekriipse."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -513,37 +513,37 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions                     # Referenced by flarum-statistics.yml
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
-    okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    posts: Posts                                 # Referenced by flarum-statistics.yml
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    all_discussions: Kõik vestlused
+    change_email: Muuda e-posti
+    change_password: Muuda parooli
+    confirm_password: Kinnita parool
+    confirmation_email_sent: "Saatsime kinnitusmeili {email}. Kui see ei saabu peatselt, vaata spämmikausta."
+    delete: Kustuta
+    delete_forever: Kustuta igaveseks
+    discussions: Vestlused                     # Referenced by flarum-statistics.yml
+    edit: Muuda
+    email: E-post
+    load_more: Lae veel
+    log_in: Sisene
+    log_out: Välju
+    mark_all_as_read: Märgi kõik loetuks
+    next_page: Järgmine leht
+    notifications: Teavitused
+    okay: Olgu                                     # Referenced by flarum-tags.yml
+    password: Parool
+    posts: Postitused                                 # Referenced by flarum-statistics.yml
+    rename: Nimeta ümber
+    reply: Vasta                                 # Referenced by flarum-mentions.yml
+    reset_your_password: Lähtesta parool
+    restore: Taasta
+    save_changes: Salvesta muudatused                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Seaded
+    sign_up: Registreeru
+    some_others: "{count} teist|{count} teist"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Alusta vestlust
+    username: Kasutajanimi
+    write_a_reply: Kirjuta vastus...
+    you: Sina                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -551,11 +551,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: Administraator
+    admins: Administraatorid
+    guest: Külaline
+    guests: Külalised
+    member: Liige
+    members: Liikmed
+    mod: Moderaator
+    mods: Moderaatorid

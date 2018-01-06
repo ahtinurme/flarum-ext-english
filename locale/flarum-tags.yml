@@ -14,8 +14,8 @@ flarum-tags:
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: Värv
-      delete_tag_button: Kustuta märge
-      delete_tag_confirmation: "Oled sa kindel, et tahad antud märke kustutada? Märke vestlust ei kustutata."
+      delete_tag_button: Kustuta silt
+      delete_tag_confirmation: "Oled sa kindel, et tahad antud sildi kustutada? Sildi vestlust ei kustutata."
       description_label: Kirjeldus
       hide_label: Peida kõikidest vestlustest
       name_label: => flarum-tags.ref.name
@@ -27,29 +27,29 @@ flarum-tags:
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Muuda kõikide saada olevate märgete nimekirja.
+      tags_text: Muuda kõikide saada olevate siltide nimekirja.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Luba märke muutmist
-      restrict_by_tag_heading: Piira märke järgi
-      tag_discussions_label: Märke vestlused
+      allow_edit_tags_label: Luba sildi muutmist
+      restrict_by_tag_heading: Piira sildi järgi
+      tag_discussions_label: Sildi vestlused
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
       range_separator_text: " kuni "
-      required_primary_heading: Nõutud esmaste märgete arv
-      required_primary_text: Sisesta miinimum ja maksimum arv esmaseid märke, mida saab vestlusele lisada.
-      required_secondary_heading: Nõutud teiseste märgete arv
-      required_secondary_text: Sisesta miinimum ja maksimum arv teiseseid märke, mdia saab vestlusele lisada.
-      title: Märke seaded
+      required_primary_heading: Nõutud esmaste siltide arv
+      required_primary_text: Sisesta miinimum ja maksimum arv esmaseid silte, mida saab vestlusele lisada.
+      required_secondary_heading: Nõutud teiseste siltide arv
+      required_secondary_text: Sisesta miinimum ja maksimum arv teiseseid silte, mdia saab vestlusele lisada.
+      title: Sildi seaded
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Märke kasutatakse vestluste kategoriseerimiseks. Esimaseid kasutatakse nagu klassikalisi foorumi kategooriaid: neid saab jagada kahetasandilisse hierarhiasse. Teisestel märgetel ei ole hierarhiat ega järjestust ning neid saab kasutada täpsuskategoriseerimiseks."
+      about_tags_text: "Silte kasutatakse vestluste kategoriseerimiseks. Esimaseid kasutatakse nagu klassikalisi foorumi kategooriaid: neid saab jagada kahetasandilisse hierarhiasse. Teisestel siltidel ei ole hierarhiat ega järjestust ning neid saab kasutada täpsuskategoriseerimiseks."
       create_tag_button: => flarum-tags.ref.create_tag
-      primary_heading: Esmased märked
-      secondary_heading: Teisesed märked
+      primary_heading: Esmased sildid
+      secondary_heading: Teisesed sildid
       settings_button: Seaded
 
   # Translations in this namespace are used by the forum user interface.
@@ -57,32 +57,32 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Vali esmane märge|Vali {count} esmaste märget"
-      choose_secondary_placeholder: "Vali veel üks märge|Vali veel {count} märget"
-      edit_title: "Muuda märkeid {title} teemal"
+      choose_primary_placeholder: "Vali esmane sildi|Vali {count} esmast silti"
+      choose_secondary_placeholder: "Vali veel üks silt|Vali veel {count} silte"
+      edit_title: "Muuda silte {title} teemal"
       submit_button: => core.ref.okay
-      title: Vali märked oma vestluse jaoks
+      title: Vali sildid oma vestluse jaoks
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Vali märked
+      choose_tags_link: Vali sildid
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Muuda märke
+      edit_tags_button: Muuda silte
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
       more_link: Veel...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Märketa
+      untagged_link: Siltideta
 
     # These translations are displayed between posts in the post stream.
     post_stream:
       added_tags_text: "{username} lisas {tagsAdded}."
       added_and_removed_tags_text: "{username} lisas {tagsAdded} ja eemaldas {tagsRemoved}."
       removed_tags_text: "{username} eemaldas {tagsRemoved}."
-      tags_text: "{tags} märge|{tags} märked"
+      tags_text: "{tags} silt|{tags} sildid"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Loo märge
+    create_tag: Loo silt
     name: Nimi
-    tags: Märked
+    tags: Sildid
